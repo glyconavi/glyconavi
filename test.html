@@ -69,7 +69,7 @@
           <div class="bs-component">
             <ul class="nav nav-pills">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Chemistry</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">GlycoChemistry</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Action</a>
                   <a class="dropdown-item" href="#">Another action</a>
@@ -79,7 +79,7 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Biology</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">GlycoBiology</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Action</a>
                   <a class="dropdown-item" href="#">Another action</a>
@@ -89,10 +89,10 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Informatics</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">GlycoInformatics</a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">GLIC</a>
+                  <a class="dropdown-item" href="#">WURCS</a>
                   <a class="dropdown-item" href="#">Something else here</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">Separated link</a>
@@ -129,38 +129,308 @@
 
     <div class="page-header" id="banner">
       <div class="row">
-        <div class="col-lg-8 col-md-7 col-sm-6">
-          <h1>What is GlycoNAVI?</h1>
-          <p class="lead">日本語も美しく表示できるBootstrapテーマ</p>
-        </div>
-        <div>
-        </div>
         <div class="col-lg-4 col-md-5 col-sm-6">
           <aside class="card">
-            <h4 class="card-header">Protein Search</h4>
+            <h4 class="card-header">Glycan Search</h4>
             <div class="container collapse navbar-toggleable-md" id="navbarResponsive2">
               <form class="form-inline float-lg-right">
                 <input class="form-control" type="text" placeholder="Search">
                 <button class="btn btn-secondary" type="submit">Search</button>
               </form>
             </div>
-            
+
             <div class="card-block">
               <div class="card-link"><button id="anti-yu-gothic-button" class="btn btn-danger btn-block">游ゴシックを無効にする</button></div>
               <p class="card-text">v3.3.5から<code>&lt;body&gt;</code>に<code>.no-thank-yu</code>を指定することで游ゴシックを使わないようにすることができるようになりました。</p>
               <p id="anti-yu-gothic-message" class="card-text">現在デモページは游ゴシックの指定が<span class="text-primary">有効</span>になっています。</p>
+            </div>
+          </aside>
+        </div>
 
+
+        <div class="col-lg-4 col-md-5 col-sm-6">
+          <aside class="card">
+            <h4 class="card-header">GlycoProtein Search</h4>
+            <div class="container collapse navbar-toggleable-md" id="navbarResponsive2">
+              <form class="form-inline float-lg-right">
+                <input class="form-control" type="text" placeholder="Search">
+                <button class="btn btn-secondary" type="submit">Search</button>
+              </form>
             </div>
 
-
-
+            <div class="card-block">
+              <div class="card-link"><button id="anti-yu-gothic-button" class="btn btn-danger btn-block">游ゴシックを無効にする</button></div>
+              <p class="card-text">v3.3.5から<code>&lt;body&gt;</code>に<code>.no-thank-yu</code>を指定することで游ゴシックを使わないようにすることができるようになりました。</p>
+              <p id="anti-yu-gothic-message" class="card-text">現在デモページは游ゴシックの指定が<span class="text-primary">有効</span>になっています。</p>
+            </div>
           </aside>
+        </div>
+
+        <div class="col-lg-4 col-md-5 col-sm-6">
+                  <aside class="card">
+                    <h4 class="card-header">GlycoLipid Search</h4>
+                    <div class="container collapse navbar-toggleable-md" id="navbarResponsive2">
+                      <form class="form-inline float-lg-right">
+                        <input class="form-control" type="text" placeholder="Search">
+                        <button class="btn btn-secondary" type="submit">Search</button>
+                      </form>
+                    </div>
+
+                    <div class="card-block">
+                      <div class="card-link"><button id="anti-yu-gothic-button" class="btn btn-danger btn-block">游ゴシックを無効にする</button></div>
+                      <p class="card-text">v3.3.5から<code>&lt;body&gt;</code>に<code>.no-thank-yu</code>を指定することで游ゴシックを使わないようにすることができるようになりました。</p>
+                      <p id="anti-yu-gothic-message" class="card-text">現在デモページは游ゴシックの指定が<span class="text-primary">有効</span>になっています。</p>
+                    </div>
+                  </aside>
+                </div>
+      </div>
+    </div>
+
+    <!-- Buttons
+    ================================================== -->
+    <div class="bs-docs-section">
+      <div class="page-header">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 id="buttons">Buttons</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-7">
+
+          <p class="bs-component">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-link">Link</button>
+          </p>
+
+          <p class="bs-component">
+            <button type="button" class="btn btn-primary disabled">Primary</button>
+            <button type="button" class="btn btn-secondary disabled">Secondary</button>
+            <button type="button" class="btn btn-success disabled">Success</button>
+            <button type="button" class="btn btn-info disabled">Info</button>
+            <button type="button" class="btn btn-warning disabled">Warning</button>
+            <button type="button" class="btn btn-danger disabled">Danger</button>
+            <button type="button" class="btn btn-link disabled">Link</button>
+          </p>
+
+          <p class="bs-component">
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+          </p>
+
+          <div class="bs-component">
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-primary">Primary</button>
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-success">Success</button>
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop2" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-info">Info</button>
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop3" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop3">
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-danger">Danger</button>
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop4" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop4">
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bs-component">
+            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+            <button type="button" class="btn btn-primary">Default button</button>
+            <button type="button" class="btn btn-primary btn-sm">Small button</button>
+          </div>
+
+        </div>
+        <div class="col-lg-5">
+
+          <p class="bs-component">
+            <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+          </p>
+
+          <div class="bs-component" style="margin-bottom: 15px;">
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-primary active">
+                <input type="checkbox" checked> Checkbox 1
+              </label>
+              <label class="btn btn-primary">
+                <input type="checkbox"> Checkbox 2
+              </label>
+              <label class="btn btn-primary">
+                <input type="checkbox"> Checkbox 3
+              </label>
+            </div>
+          </div>
+
+          <div class="bs-component" style="margin-bottom: 15px;">
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-primary active">
+                <input type="radio" name="options" id="option1" checked> Radio 1
+              </label>
+              <label class="btn btn-primary">
+                <input type="radio" name="options" id="option2"> Radio 2
+              </label>
+              <label class="btn btn-primary">
+                <input type="radio" name="options" id="option3"> Radio 3
+              </label>
+            </div>
+          </div>
+
+          <div class="bs-component">
+            <div class="btn-group-vertical" data-toggle="buttons">
+              <label class="btn btn-primary active">
+                <input type="radio" name="options" id="option4" checked> Radio 1
+              </label>
+              <label class="btn btn-primary">
+                <input type="radio" name="options" id="option5"> Radio 2
+              </label>
+              <label class="btn btn-primary">
+                <input type="radio" name="options" id="option6"> Radio 3
+              </label>
+            </div>
+          </div>
+
+          <div class="bs-component" style="margin-bottom: 15px;">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-secondary">Left</button>
+              <button type="button" class="btn btn-secondary">Middle</button>
+              <button type="button" class="btn btn-secondary">Right</button>
+            </div>
+          </div>
+
+          <div class="bs-component" style="margin-bottom: 15px;">
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+              <div class="btn-group" role="group" aria-label="First group">
+                <button type="button" class="btn btn-secondary">1</button>
+                <button type="button" class="btn btn-secondary">2</button>
+                <button type="button" class="btn btn-secondary">3</button>
+                <button type="button" class="btn btn-secondary">4</button>
+              </div>
+              <div class="btn-group" role="group" aria-label="Second group">
+                <button type="button" class="btn btn-secondary">5</button>
+                <button type="button" class="btn btn-secondary">6</button>
+                <button type="button" class="btn btn-secondary">7</button>
+              </div>
+              <div class="btn-group" role="group" aria-label="Third group">
+                <button type="button" class="btn btn-secondary">8</button>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
 
+    <!-- Tables
+    ================================================== -->
+    <div class="bs-docs-section">
 
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="page-header">
+            <h1 id="tables">Tables</h1>
+          </div>
 
+          <div class="bs-component">
+            <table class="table table-striped table-hover table-bordered">
+              <thead class="thead-inverse">
+                <tr>
+                  <th>#</th>
+                  <th>タイトル</th>
+                  <th>タイトル</th>
+                  <th>タイトル</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>カラムの内容</td>
+                  <td>カラムの内容</td>
+                  <td>カラムの内容</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>カラムの内容</td>
+                  <td>カラムの内容</td>
+                  <td>カラムの内容</td>
+                </tr>
+                <tr class="table-info">
+                  <td>3</td>
+                  <td>カラムの内容</td>
+                  <td>カラムの内容</td>
+                  <td>カラムの内容</td>
+                </tr>
+                <tr class="table-success">
+                  <td>4</td>
+                  <td>カラムの内容</td>
+                  <td>カラムの内容</td>
+                  <td>カラムの内容</td>
+                </tr>
+                <tr class="table-danger">
+                  <td>5</td>
+                  <td>カラムの内容</td>
+                  <td>カラムの内容</td>
+                  <td>カラムの内容</td>
+                </tr>
+                <tr class="table-warning">
+                  <td>6</td>
+                  <td>カラムの内容</td>
+                  <td>カラムの内容</td>
+                  <td>カラムの内容</td>
+                </tr>
+                <tr class="table-active">
+                  <td>7</td>
+                  <td>カラムの内容</td>
+                  <td>カラムの内容</td>
+                  <td>カラムの内容</td>
+                </tr>
+              </tbody>
+            </table>
+          </div><!-- /example -->
+        </div>
+      </div>
+    </div>
+    
   <!-- Navbar
   ================================================== -->
   <div class="bs-docs-section clearfix">
@@ -302,180 +572,7 @@
   </div>
 
 
-  <!-- Buttons
-  ================================================== -->
-  <div class="bs-docs-section">
-    <div class="page-header">
-      <div class="row">
-        <div class="col-lg-12">
-          <h1 id="buttons">Buttons</h1>
-        </div>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-lg-7">
-
-        <p class="bs-component">
-          <button type="button" class="btn btn-primary">Primary</button>
-          <button type="button" class="btn btn-secondary">Secondary</button>
-          <button type="button" class="btn btn-success">Success</button>
-          <button type="button" class="btn btn-info">Info</button>
-          <button type="button" class="btn btn-warning">Warning</button>
-          <button type="button" class="btn btn-danger">Danger</button>
-          <button type="button" class="btn btn-link">Link</button>
-        </p>
-
-        <p class="bs-component">
-          <button type="button" class="btn btn-primary disabled">Primary</button>
-          <button type="button" class="btn btn-secondary disabled">Secondary</button>
-          <button type="button" class="btn btn-success disabled">Success</button>
-          <button type="button" class="btn btn-info disabled">Info</button>
-          <button type="button" class="btn btn-warning disabled">Warning</button>
-          <button type="button" class="btn btn-danger disabled">Danger</button>
-          <button type="button" class="btn btn-link disabled">Link</button>
-        </p>
-
-        <p class="bs-component">
-          <button type="button" class="btn btn-outline-primary">Primary</button>
-          <button type="button" class="btn btn-outline-secondary">Secondary</button>
-          <button type="button" class="btn btn-outline-success">Success</button>
-          <button type="button" class="btn btn-outline-info">Info</button>
-          <button type="button" class="btn btn-outline-warning">Warning</button>
-          <button type="button" class="btn btn-outline-danger">Danger</button>
-        </p>
-
-        <div class="bs-component">
-          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-            <button type="button" class="btn btn-primary">Primary</button>
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <a class="dropdown-item" href="#">Dropdown link</a>
-                <a class="dropdown-item" href="#">Dropdown link</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-            <button type="button" class="btn btn-success">Success</button>
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop2" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
-                <a class="dropdown-item" href="#">Dropdown link</a>
-                <a class="dropdown-item" href="#">Dropdown link</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-            <button type="button" class="btn btn-info">Info</button>
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop3" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop3">
-                <a class="dropdown-item" href="#">Dropdown link</a>
-                <a class="dropdown-item" href="#">Dropdown link</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-            <button type="button" class="btn btn-danger">Danger</button>
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop4" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop4">
-                <a class="dropdown-item" href="#">Dropdown link</a>
-                <a class="dropdown-item" href="#">Dropdown link</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="bs-component">
-          <button type="button" class="btn btn-primary btn-lg">Large button</button>
-          <button type="button" class="btn btn-primary">Default button</button>
-          <button type="button" class="btn btn-primary btn-sm">Small button</button>
-        </div>
-
-      </div>
-      <div class="col-lg-5">
-
-        <p class="bs-component">
-          <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-        </p>
-
-        <div class="bs-component" style="margin-bottom: 15px;">
-          <div class="btn-group" data-toggle="buttons">
-            <label class="btn btn-primary active">
-              <input type="checkbox" checked> Checkbox 1
-            </label>
-            <label class="btn btn-primary">
-              <input type="checkbox"> Checkbox 2
-            </label>
-            <label class="btn btn-primary">
-              <input type="checkbox"> Checkbox 3
-            </label>
-          </div>
-        </div>
-
-        <div class="bs-component" style="margin-bottom: 15px;">
-          <div class="btn-group" data-toggle="buttons">
-            <label class="btn btn-primary active">
-              <input type="radio" name="options" id="option1" checked> Radio 1
-            </label>
-            <label class="btn btn-primary">
-              <input type="radio" name="options" id="option2"> Radio 2
-            </label>
-            <label class="btn btn-primary">
-              <input type="radio" name="options" id="option3"> Radio 3
-            </label>
-          </div>
-        </div>
-
-        <div class="bs-component">
-          <div class="btn-group-vertical" data-toggle="buttons">
-            <label class="btn btn-primary active">
-              <input type="radio" name="options" id="option4" checked> Radio 1
-            </label>
-            <label class="btn btn-primary">
-              <input type="radio" name="options" id="option5"> Radio 2
-            </label>
-            <label class="btn btn-primary">
-              <input type="radio" name="options" id="option6"> Radio 3
-            </label>
-          </div>
-        </div>
-
-        <div class="bs-component" style="margin-bottom: 15px;">
-          <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary">Left</button>
-            <button type="button" class="btn btn-secondary">Middle</button>
-            <button type="button" class="btn btn-secondary">Right</button>
-          </div>
-        </div>
-
-        <div class="bs-component" style="margin-bottom: 15px;">
-          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-            <div class="btn-group" role="group" aria-label="First group">
-              <button type="button" class="btn btn-secondary">1</button>
-              <button type="button" class="btn btn-secondary">2</button>
-              <button type="button" class="btn btn-secondary">3</button>
-              <button type="button" class="btn btn-secondary">4</button>
-            </div>
-            <div class="btn-group" role="group" aria-label="Second group">
-              <button type="button" class="btn btn-secondary">5</button>
-              <button type="button" class="btn btn-secondary">6</button>
-              <button type="button" class="btn btn-secondary">7</button>
-            </div>
-            <div class="btn-group" role="group" aria-label="Third group">
-              <button type="button" class="btn btn-secondary">8</button>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
 
   <!-- Typography
   ================================================== -->
@@ -558,75 +655,7 @@
     </div>
   </div>
 
-  <!-- Tables
-  ================================================== -->
-  <div class="bs-docs-section">
 
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="page-header">
-          <h1 id="tables">Tables</h1>
-        </div>
-
-        <div class="bs-component">
-          <table class="table table-striped table-hover table-bordered">
-            <thead class="thead-inverse">
-              <tr>
-                <th>#</th>
-                <th>タイトル</th>
-                <th>タイトル</th>
-                <th>タイトル</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>カラムの内容</td>
-                <td>カラムの内容</td>
-                <td>カラムの内容</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>カラムの内容</td>
-                <td>カラムの内容</td>
-                <td>カラムの内容</td>
-              </tr>
-              <tr class="table-info">
-                <td>3</td>
-                <td>カラムの内容</td>
-                <td>カラムの内容</td>
-                <td>カラムの内容</td>
-              </tr>
-              <tr class="table-success">
-                <td>4</td>
-                <td>カラムの内容</td>
-                <td>カラムの内容</td>
-                <td>カラムの内容</td>
-              </tr>
-              <tr class="table-danger">
-                <td>5</td>
-                <td>カラムの内容</td>
-                <td>カラムの内容</td>
-                <td>カラムの内容</td>
-              </tr>
-              <tr class="table-warning">
-                <td>6</td>
-                <td>カラムの内容</td>
-                <td>カラムの内容</td>
-                <td>カラムの内容</td>
-              </tr>
-              <tr class="table-active">
-                <td>7</td>
-                <td>カラムの内容</td>
-                <td>カラムの内容</td>
-                <td>カラムの内容</td>
-              </tr>
-            </tbody>
-          </table>
-        </div><!-- /example -->
-      </div>
-    </div>
-  </div>
 
   <!-- Forms
   ================================================== -->
