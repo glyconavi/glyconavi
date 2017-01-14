@@ -56,7 +56,8 @@
   </head>
   <body>
 
-
+    <!-- Header
+    ================================================== -->
   <header>
     <nav class="navbar navbar-light bg-faded navbar-fixed-top">
       <div class="container">
@@ -123,16 +124,18 @@
         </div>
     </div>
 </nav>
-  </header>
+</header>
 
+<!-- top
+================================================== -->
   <div class="container">
-
     <div class="page-header" id="banner">
       <div class="row">
+
         <div class="col-lg-4 col-md-5 col-sm-6">
           <aside class="card">
             <h4 class="card-header">Glycan Search</h4>
-            <div class="container collapse navbar-toggleable-md" id="navbarResponsive2">
+            <div class="container collapse navbar-toggleable-md" id="navbarResponsive1">
               <form class="form-inline float-lg-right">
                 <input class="form-control" type="text" placeholder="Search">
                 <button class="btn btn-secondary" type="submit">Search</button>
@@ -140,7 +143,7 @@
             </div>
 
             <div class="card-block">
-              <div class="card-link"><button id="anti-yu-gothic-button" class="btn btn-danger btn-block">游ゴシックを無効にする</button></div>
+              <div class="card-link"><button id="anti-yu-gothic-button1" class="btn btn-danger btn-block">游ゴシックを無効にする</button></div>
               <p class="card-text">v3.3.5から<code>&lt;body&gt;</code>に<code>.no-thank-yu</code>を指定することで游ゴシックを使わないようにすることができるようになりました。</p>
               <p id="anti-yu-gothic-message" class="card-text">現在デモページは游ゴシックの指定が<span class="text-primary">有効</span>になっています。</p>
             </div>
@@ -159,7 +162,7 @@
             </div>
 
             <div class="card-block">
-              <div class="card-link"><button id="anti-yu-gothic-button" class="btn btn-danger btn-block">游ゴシックを無効にする</button></div>
+              <div class="card-link"><button id="anti-yu-gothic-button2" class="btn btn-danger btn-block">游ゴシックを無効にする</button></div>
               <p class="card-text">v3.3.5から<code>&lt;body&gt;</code>に<code>.no-thank-yu</code>を指定することで游ゴシックを使わないようにすることができるようになりました。</p>
               <p id="anti-yu-gothic-message" class="card-text">現在デモページは游ゴシックの指定が<span class="text-primary">有効</span>になっています。</p>
             </div>
@@ -167,9 +170,9 @@
         </div>
 
         <div class="col-lg-4 col-md-5 col-sm-6">
-                  <aside class="card">
+                <aside class="card">
                     <h4 class="card-header">GlycoLipid Search</h4>
-                    <div class="container collapse navbar-toggleable-md" id="navbarResponsive2">
+                    <div class="container collapse navbar-toggleable-md" id="navbarResponsive3">
                       <form class="form-inline float-lg-right">
                         <input class="form-control" type="text" placeholder="Search">
                         <button class="btn btn-secondary" type="submit">Search</button>
@@ -177,25 +180,18 @@
                     </div>
 
                     <div class="card-block">
-                      <div class="card-link"><button id="anti-yu-gothic-button" class="btn btn-danger btn-block">游ゴシックを無効にする</button></div>
+                      <div class="card-link"><button id="anti-yu-gothic-button3" class="btn btn-danger btn-block">游ゴシックを無効にする</button></div>
                       <p class="card-text">v3.3.5から<code>&lt;body&gt;</code>に<code>.no-thank-yu</code>を指定することで游ゴシックを使わないようにすることができるようになりました。</p>
                       <p id="anti-yu-gothic-message" class="card-text">現在デモページは游ゴシックの指定が<span class="text-primary">有効</span>になっています。</p>
                     </div>
-                  </aside>
-                </div>
+                  </aside >
+        </div>
       </div>
     </div>
 
     <!-- Buttons
     ================================================== -->
     <div class="bs-docs-section">
-      <div class="page-header">
-        <div class="row">
-          <div class="col-lg-12">
-            <h1 id="buttons">Buttons</h1>
-          </div>
-        </div>
-      </div>
 
       <div class="row">
         <div class="col-lg-7">
@@ -430,7 +426,7 @@
         </div>
       </div>
     </div>
-    
+
   <!-- Navbar
   ================================================== -->
   <div class="bs-docs-section clearfix">
@@ -1096,45 +1092,6 @@
     </div>
   </div>
 
-  <!-- Progress
-  ================================================== -->
-  <div class="bs-docs-section">
-
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="page-header">
-          <h1 id="progress">Progress</h1>
-        </div>
-
-        <h3 id="progress-basic">Basic</h3>
-        <div class="bs-component">
-          <progress class="progress" value="50" max="100" ></progress>
-        </div>
-
-        <h3 id="progress-alternatives">Contextual alternatives</h3>
-        <div class="bs-component">
-          <progress class="progress progress-success" value="25" max="100" ></progress>
-          <progress class="progress progress-info" value="50" max="100" ></progress>
-          <progress class="progress progress-warning" value="75" max="100" ></progress>
-          <progress class="progress progress-danger" value="100" max="100" ></progress>
-        </div>
-
-        <h3 id="progress-striped">Striped</h3>
-        <div class="bs-component">
-          <progress class="progress progress-striped" value="10" max="100"></progress>
-          <progress class="progress progress-striped progress-success" value="25" max="100"></progress>
-          <progress class="progress progress-striped progress-info" value="50" max="100"></progress>
-          <progress class="progress progress-striped progress-warning" value="75" max="100"></progress>
-          <progress class="progress progress-striped progress-danger" value="100" max="100"></progress>
-        </div>
-
-        <h3 id="progress-animated">Animated</h3>
-        <div class="bs-component">
-          <progress class="progress progress-striped progress-animated" value="25" max="100"></progress>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Containers
   ================================================== -->
@@ -1441,7 +1398,31 @@
     $('.bs-component [data-toggle="popover"]').popover();
     $('.bs-component [data-toggle="tooltip"]').tooltip();
 
-    $('#anti-yu-gothic-button').on('click', function() {
+    $('#anti-yu-gothic-button1').on('click', function() {
+      if ( $('body').hasClass('no-thank-yu') ) {
+        $('body').removeClass('no-thank-yu');
+        $(this).text('游ゴシックを無効にする').removeClass('btn-primary').addClass('btn-danger');
+        $("#anti-yu-gothic-message").html('現在デモページは游ゴシックの指定が<span class="text-primary">有効</span>になっています。');
+      }
+      else {
+        $('body').addClass('no-thank-yu');
+        $(this).text('游ゴシックを有効にする').removeClass('btn-danger').addClass('btn-primary');
+        $("#anti-yu-gothic-message").html('現在デモページは游ゴシックの指定が<span class="text-danger">無効</span>になっています。');
+      }
+    });
+    $('#anti-yu-gothic-button2').on('click', function() {
+      if ( $('body').hasClass('no-thank-yu') ) {
+        $('body').removeClass('no-thank-yu');
+        $(this).text('游ゴシックを無効にする').removeClass('btn-primary').addClass('btn-danger');
+        $("#anti-yu-gothic-message").html('現在デモページは游ゴシックの指定が<span class="text-primary">有効</span>になっています。');
+      }
+      else {
+        $('body').addClass('no-thank-yu');
+        $(this).text('游ゴシックを有効にする').removeClass('btn-danger').addClass('btn-primary');
+        $("#anti-yu-gothic-message").html('現在デモページは游ゴシックの指定が<span class="text-danger">無効</span>になっています。');
+      }
+    });
+    $('#anti-yu-gothic-button3').on('click', function() {
       if ( $('body').hasClass('no-thank-yu') ) {
         $('body').removeClass('no-thank-yu');
         $(this).text('游ゴシックを無効にする').removeClass('btn-primary').addClass('btn-danger');
