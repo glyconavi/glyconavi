@@ -3310,11 +3310,11 @@ select.form-control-lg:not([size]):not([multiple]),
 .has-success .form-check-inline,
 .has-success .custom-control
 {
-    color: #5CC97B;
+    color: #35A16B
 }
 .has-success .form-control
 {
-    border-color: #5CC97B;
+    border-color: #35A16B
 }
 .has-success .form-control:focus
 {
@@ -3323,8 +3323,8 @@ select.form-control-lg:not([size]):not([multiple]),
 }
 .has-success .input-group-addon
 {
-    color: #5CC97B;
-    border-color: #5CC97B;
+    color: #35A16B
+    border-color: #35A16B
     background-color: #f3f8e1;
 }
 .has-success .form-control-success
@@ -3694,8 +3694,8 @@ fieldset[disabled] a.btn
 .btn-success
 {
     color: #fff;
-    border-color: #5CC97B;
-    background-color: #5CC97B;
+    border-color: #35A16B
+    background-color: #35A16B
 }
 .btn-success:hover
 {
@@ -3738,14 +3738,14 @@ fieldset[disabled] a.btn
 .btn-success:disabled:focus,
 .btn-success:disabled.focus
 {
-    border-color: #5CC97B;
-    background-color: #5CC97B;
+    border-color: #35A16B
+    background-color: #35A16B
 }
 .btn-success.disabled:hover,
 .btn-success:disabled:hover
 {
-    border-color: #5CC97B;
-    background-color: #5CC97B;
+    border-color: #35A16B
+    background-color: #35A16B
 }
 
 .btn-warning
@@ -4029,31 +4029,31 @@ fieldset[disabled] a.btn
 
 .btn-outline-success
 {
-    color: #5CC97B;
-    border-color: #5CC97B;
+    color: #35A16B
+    border-color: #35A16B
     background-color: transparent;
     background-image: none;
 }
 .btn-outline-success:hover
 {
     color: #fff;
-    border-color: #5CC97B;
-    background-color: #5CC97B;
+    border-color: #35A16B
+    background-color: #35A16B
 }
 .btn-outline-success:focus,
 .btn-outline-success.focus
 {
     color: #fff;
-    border-color: #5CC97B;
-    background-color: #5CC97B;
+    border-color: #35A16B
+    background-color: #35A16B
 }
 .btn-outline-success:active,
 .btn-outline-success.active,
 .open > .btn-outline-success.dropdown-toggle
 {
     color: #fff;
-    border-color: #5CC97B;
-    background-color: #5CC97B;
+    border-color: #35A16B
+    background-color: #35A16B
 }
 .btn-outline-success:active:hover,
 .btn-outline-success:active:focus,
@@ -5926,8 +5926,8 @@ tbody.collapse.in
 
 .card-success
 {
-    border-color: #5CC97B;
-    background-color: #5CC97B;
+    border-color: #35A16B
+    background-color: #35A16B
 }
 .card-success .card-header,
 .card-success .card-footer
@@ -5988,7 +5988,7 @@ tbody.collapse.in
 
 .card-outline-success
 {
-    border-color: #5CC97B;
+    border-color: #35A16B
     background-color: transparent;
 }
 
@@ -6389,7 +6389,7 @@ a.tag:hover
 
 .tag-success
 {
-    background-color: #5CC97B;
+    background-color: #35A16B
 }
 .tag-success[href]:focus,
 .tag-success[href]:hover
@@ -6728,21 +6728,21 @@ base::-moz-progress-bar,
 }
 .progress-success[value]::-webkit-progress-value
 {
-    background-color: #5CC97B;
+    background-color: #35A16B
 }
 .progress-success[value]::-moz-progress-bar
 {
-    background-color: #5CC97B;
+    background-color: #35A16B
 }
 .progress-success[value]::-ms-fill
 {
-    background-color: #5CC97B;
+    background-color: #35A16B
 }
 @media screen and (min-width: 0\0)
 {
     .progress-success .progress-bar
     {
-        background-color: #5CC97B;
+        background-color: #35A16B
     }
 }
 
