@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen{
+.logo {
+
+}
+}
+.from-query-box {
+	width: 350px;
+	height: 40px;
+}
+
+}
+
+@media screen{
+.body-footer {
+}
+}
+
+@media screen{
+.img-logo {
+	height: 50px;
+	width: 260px;		
+}
+}
