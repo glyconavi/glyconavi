@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <link rel="shortcut icon" href="logo/GlycoNAVI.ico">
-    <title>GlycoNAVI</title>
+    <title  class="glyconavi lightseagreen">GlycoNAVI</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -51,13 +51,18 @@
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    Menu <i class="fa fa-bars"></i>
-                </button>
+            <div class="page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> Menu 
+                <div class="dropdown"> Dropdown <span class="caret"></span>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li>Action</li>
+                    <li>Another action</li>
+                    <li>Something else here</li>
+                  </ul>
+                </div>
+                <em class="fa fa-bars"></em></button>
                 <div class="navbar-brand">
-					<p class="card-text">GlycoNAVI</p>
+					<a class="glyconavi lightseagreen" href="index.html">GlycoNAVI</a>
         		</div>
             </div>
 
@@ -68,13 +73,16 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">Repository</a>
+                        <a href="about.html">Databases</a>
                     </li>
                     <li>
-                        <a>Database</a>
+                        <a>Tools</a>
                     </li>
                     <li>
-                        <a href="contact.html">Tool</a>
+                        <a href="contact.html">Repository</a>
+                    </li>
+                    <li>
+                        <a>Other Links</a>
                     </li>
                 </ul>
             </div>
@@ -118,16 +126,21 @@
                 <div class="input-group">
                   <input type="text" class="form-control" aria-label="..." placeholder="HNK-1">
                    <div class="input-group-btn">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search <span class="caret"></span></button>
                     <ul class="dropdown-menu">
-                      <li><a href="#">Glycan Search</a></li>
-                      <li><a href="#">GlycoProtein Search</a></li>
-                      <li><a href="#">GlycoLipid Search</a></li>
+                      <li><a href="#">Glycan</a></li>
+                      <li><a href="#">GlycoProtein</a></li>
+                      <li><a href="#">GlycoLipid</a></li>
                       <li role="separator" class="divider"></li>
-                      <li><a href="#">Glycosylation Search</a></li>
-                      <li><a href="#">Interaction Search</a></li>
+                      <li><a href="#">Glycosylation site</a></li>
+                      <li><a href="#">Protein Interaction</a></li>
                       <li role="separator" class="divider"></li>
-                      <li><a href="#">Chemical Synthesis Search</a></li>
+                      <li><a href="#">Chemical Synthesis</a></li>
+                      <li><a href="#">Purification</a></li>
+                      <li><a href="#">Thin-layer chromatography (TLC) </a></li>
+                      <li><a href="#">Proportion</a></li>
+                      <li><a href="#">Activity</a></li>
+                      <li><a href="#">Crude Drug</a></li>
                     </ul>
                   </div>
                   <!-- /btn-group -->
@@ -136,14 +149,14 @@
               </form>
             
             <div class="card-block">
-              <p>Please enter your search query in the boxes.</p>
-            </div>
+              <p class="glyconavi dimgray">Please enter your search query in the boxes.</p>
+			</div>
             </div>
             <hr>
             
             
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <h2>Glyco-Website Cross-Search </h2>
+            <h2 class="glyconavi darkolivegreen">Glyco-Website Cross-Search </h2>
             <gcse:search></gcse:search>
          </div>
            <hr>
@@ -154,7 +167,7 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div>
                     <a>
-                        <h2>
+                        <h2 class="glyconavi darkolivegreen">
                             Databases
                         </h2>
                         <ul>
@@ -189,29 +202,10 @@
                     
                 </div>
                 <hr>
+
                 <div>
                     <a>
-                        <h2>
-                            Repositories
-                        </h2>
-                        <ul>
-                        <li>
-                            <a>GlyTouCan: International Glycan Structure Repository</a>
-                        </li>
-                        <li>
-                            <a>jPOST</a>
-                        </li>
-                        <li>
-                            <a>PubChem</a>
-                        </li>
-                        </ul>
-                    </a>
-                    
-                </div>
-                <hr>
-                <div>
-                    <a>
-                        <h2>
+                        <h2 class="glyconavi darkolivegreen">
                             Tools
                         </h2>
                         <ul>
@@ -228,9 +222,29 @@
                 <hr>
                 <div>
                     <a>
-                        <h2>
+                        <h2 class="glyconavi darkolivegreen">
                             External Links
                         </h2>
+                        
+						<div>
+							<a>
+							<h3 class="glyconavi darkseagreen"> Repositories </h3>
+							<ul>
+								<li>
+									<a>GlyTouCan: International Glycan Structure Repository</a>
+								</li>
+								<li>
+									<a>jPOST</a>
+								</li>
+								<li>
+									<a>PubChem</a>
+								</li>
+								</ul>
+							</a>
+
+						</div>
+                        
+                        <h3 class="glyconavi darkseagreen">Others Links</h3>
                         <ul>
                         <li>
                             <a>Glycoinofrmatics Consortium (GLIC)</a>
@@ -272,7 +286,7 @@
                 <hr>
                 <div>
                     <a>
-                        <h2>
+                        <h2 class="glyconavi darkolivegreen">
                             Acknowledgements
                         </h2>
                         <ul>
