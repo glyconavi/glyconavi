@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <link rel="shortcut icon" href="logo/GlycoNAVI.ico">
     <title>GlycoNAVI</title>
 
     <!-- Bootstrap Core CSS -->
@@ -21,6 +22,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="css/glyconavi.css" rel="stylesheet" type="text/css" media="screen">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,7 +44,9 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">GlycoNAVI</a>
+                <div class="navbar-brand">
+					<p class="card-text"><img src="logo/GlycoNAVI_logo_Square_cir1200.png" height="60" alt="GlycoNAVI"><img src="logo/GlycoNAVI.png" height="60" alt="GlycoNAVI"></p>
+        		</div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -85,15 +89,73 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row">
+           
+           
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+           
+              <form class="form-inline float-lg-left">
+                
+                <div class="input-group">
+                  <input type="text" class="form-control" aria-label="..." placeholder="HNK-1">
+                   <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+                  <!-- /btn-group -->
+                  
+                </div>
+              </form>
+            
+            <div class="card-block">
+              <a>Glycan search is a ....</a>
+            </div>
+            </div>
+            <hr>
+           
+           
+           
+           
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-preview">
                     <a href="post.html">
                         <h2 class="post-title">
-                            Glycoconjugate
+                            Databases
                         </h2>
-                        <h3 class="post-subtitle">
-                            PGlycoproteins and Glycolipids
-                        </h3>
+                        <ul>
+                           <li class="post-subtitle">
+                            Glycoconjugates - Glycoproteins - Glycosylation site, Glycolipids
+                        </li>
+                        <li class="post-subtitle">
+                            Carbohydrate-Protein Interaction
+                        </li>
+                        <li class="post-subtitle">
+                            Proportion of anomeric isomers
+                        </li>
+                        <li class="post-subtitle">
+                            WURCS
+                        </li>
+                        <li class="post-subtitle">
+                            Activity for Carbohydrate
+                        </li>
+                        <li class="post-subtitle">
+                            Crude Drug
+                        </li>
+                        <li class="post-subtitle">
+                            NMR for Carbohydrate
+                        </li>
+                        <li class="post-subtitle">
+                            Chemical Glycosylation
+                        </li>
+                        <li class="post-subtitle">
+                            Glycan Chemical Syntheses
+                        </li>
+                        </ul>
                     </a>
                     <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on March 13, 2017</p>
                 </div>
@@ -101,8 +163,19 @@
                 <div class="post-preview">
                     <a href="post.html">
                         <h2 class="post-title">
-                            I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+                            Repository
                         </h2>
+                        <ul>
+                        <li class="post-subtitle">
+                            GlyTouCan: International Glycan Structure Repository
+                        </li>
+                        <li class="post-subtitle">
+                            jPOST
+                        </li>
+                        <li class="post-subtitle">
+                            PubChem
+                        </li>
+                        </ul>
                     </a>
                     <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
                 </div>
@@ -110,11 +183,16 @@
                 <div class="post-preview">
                     <a href="post.html">
                         <h2 class="post-title">
-                            Science has not yet mastered prophecy
+                            Glycoinformatics Tools
                         </h2>
-                        <h3 class="post-subtitle">
-                            We predict too much for the next year and yet far too little for the next ten.
-                        </h3>
+                        <ul>
+                        <li class="post-subtitle">
+                            CSEditor
+                        </li>
+                        <li class="post-subtitle">
+                            ESTNMR
+                        </li>
+                        </ul>
                     </a>
                     <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</p>
                 </div>
@@ -122,11 +200,39 @@
                 <div class="post-preview">
                     <a href="post.html">
                         <h2 class="post-title">
-                            Failure is not an option
+                            External Links
                         </h2>
-                        <h3 class="post-subtitle">
-                            Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-                        </h3>
+                        <ul>
+                        <li class="post-subtitle">
+                            WURCS Working Group
+                        </li>
+                        <li class="post-subtitle">
+                            Glycoinofrmatics Consortium (GLIC)
+                        </li>
+                        <li class="post-subtitle">
+                            WURCS Working Group
+                        </li>
+                        <li class="post-subtitle">
+                            Glycoinofrmatics Consortium (GLIC)
+                        </li>
+                        </ul>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2014</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            Acknowledgements
+                        </h2>
+                        <ul>
+                        <li class="post-subtitle">
+                            WURCS Working Group
+                        </li>
+                        <li class="post-subtitle">
+                            Glycoinofrmatics Consortium (GLIC)
+                        </li>
+                        </ul>
                     </a>
                     <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2014</p>
                 </div>
@@ -174,7 +280,11 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; The Noguchi Institute 2017</p>
+                    <p class="copyright text-muted">Copyright &copy; The Noguchi Institute 2017 
+                    <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US">
+                		<img alt="Creative Commons License" style="border-width : 0" src="https://i.creativecommons.org/l/by-sa/3.0/80x15.png" />
+              		</a>
+					</p>
                 </div>
             </div>
         </div>
